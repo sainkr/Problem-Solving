@@ -46,14 +46,24 @@ ex) 1260_hayeona.java
     - 자신의 레포와 메인 레포와 연결하기 (Git remote add upstream https://github.com/hayeona92/Problem-Solving.git)
     - 자신의 닉네임으로 브랜치 생성하기
 
-  1. 코드 작성하기
-  2. 코드 푸시하기 직전에, 중앙 main 레포와 자신의 (main/master) 레포 싱크 맞추기 
-     1. 브랜치 상태가  main or master인 상태에서 git pull upstream main
-     2. git checkout "브랜치명" 
-     3. git merge "설정한 값에 따라 main or master"
-  3. 코드 푸시하기 (git add 파일명 &rarr; git commit -m "커밋메세지" &rarr; Git push origin "브랜치명")
-  4. 코드 푸시한 이후, Pull Reqeust 생성하기 (Target : 메인레포 / Source: 자신의 브랜치)
-  5. Pull Reqeust 작성 후, merge 진행 및 확인하기 
+  ```
+  # 1. 코드 작성하기
+  # 2. 코드 작성 한 이후 working branch(자신의 닉네임 브랜치)에서 
+  git add "파일명"								 # 파일 등록
+  git commit -m "커밋 메세지"			# 커밋 남기기
+  
+  # 3. 자신의 Repo와 Main Repo와 snyc 맞추기
+  git checkout main							#닉네임(sub)브랜치에서 main 브랜치로 넘어가기
+  git pull upstream main				#repo간 snyc 맞추기
+  git checkout "브랜치명"					# working branch로 전환
+  git merge main 							  # working branch와 main branch snyc 맞추기
+  git push origin "working_branch" 		# 코드 푸시하기
+  
+  # 4. Pull Reqeust 생성하기 (target: hayeona92-main // Source: 자신의 브랜치)
+  # 5. Pull Request 작성 후, merge 진행 및 확인하기
+  ```
+
+  
 
   
 
