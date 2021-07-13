@@ -51,7 +51,7 @@ ex) 1260_hayeona.java
     - 자신의 레포와 메인 레포와 연결하기 
 
       ```
-      git remote add upstream https://github.com/hayeona92/Problem-Solving.git
+      git remote add upstream https://github.com/S-hayeon/Problem-Solving.git
       ```
 
     - 자신의 닉네임으로 브랜치 생성하기
@@ -90,7 +90,7 @@ ex) 1260_hayeona.java
   git push origin "working_branch" 		
   
   
-  # 4. Pull Reqeust 생성하기 (target: hayeona92-main // Source: 자신의 브랜치)
+  # 4. Pull Reqeust 생성하기 (target: S-hayeon main // Source: 자신의 브랜치)
   # 5. Pull Request 작성 후, merge 진행 및 확인하기
   ```
 
