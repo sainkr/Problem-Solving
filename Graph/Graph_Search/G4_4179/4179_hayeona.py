@@ -2,8 +2,6 @@ import sys
 from collections import deque
 input = sys.stdin.readline
 
-#문제풀이 전략 및 방법 - https://www.notion.so/4179-4-6c87d01ba84841089a889329f4cc4f98
-
 n,m = map(int,input().split())
 graph = []
 fire = []
