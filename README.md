@@ -19,8 +19,8 @@ Ref) https://www.notion.so/Problem_Solving-669bb90d72d74dc7b28cefa82011503c#ee36
 
 ````
 #파일명
-난이도_문제번호_사용자명.확장자
-ex) S2_1260_hayeona.java
+문제번호_사용자명.확장자
+ex) 1260_hayeona.java
 
 #Commit message
 소요시간_본인체감난이도(1 ~ 10)
@@ -46,6 +46,7 @@ ex) S2_1260_hayeona.java
 - ~~PR Review 활용 여부는 미정~~
 - Jetbrains IDE 사용시, 불필요한 파일/폴더 업로드 방지 위해 gitignore 작성하기 (https://www.toptal.com/developers/gitignore) 
 
+- 문제풀이 공유방법: 슬랙 참조
 ----
 
 
