@@ -36,28 +36,61 @@ ex) 1260_hayeona.java
 
      - 생성되어 있지 않다면, 해당 문제번호로 폴더를 만들고 코드 push하기
   
-- 작업 순서:
+  
+  
+- **작업 순서:**
 
 - 참조) andamiro25 - https://andamiro25.tistory.com/193
 
   - **최초 진행할 경우 -** 
+
     - 자신의 git으로 해당 repo fork받기
+
     - 자신의 git에 생긴 repo clone받기 (local저장소 만들기)
-    - 자신의 레포와 메인 레포와 연결하기 (Git remote add upstream https://github.com/hayeona92/Problem-Solving.git)
+
+    - 
+
+    - 자신의 레포와 메인 레포와 연결하기 
+
+      ```
+      git remote add upstream https://github.com/hayeona92/Problem-Solving.git
+      ```
+
     - 자신의 닉네임으로 브랜치 생성하기
+
+      ```
+      git checkout -b "자신의 닉네임"
+      ```
+
+      
 
   ```
   # 1. 코드 작성하기
-  # 2. 코드 작성 한 이후 working branch(자신의 닉네임 브랜치)에서 
-  git add "파일명"								 # 파일 등록
-  git commit -m "커밋 메세지"			# 커밋 남기기
+  # 2. 코드 작성 한 이후 working branch(자신의 닉네임 브랜치)에서 다음과 같은 작업 진행
+  
+  # 파일 등록
+  git add "파일명"								 
+  # 커밋 남기기
+  git commit -m "커밋 메세지"			
+  
   
   # 3. 자신의 Repo와 Main Repo와 snyc 맞추기
-  git checkout main							#닉네임(sub)브랜치에서 main 브랜치로 넘어가기
-  git pull upstream main				#repo간 snyc 맞추기
-  git checkout "브랜치명"					# working branch로 전환
-  git merge main 							  # working branch와 main branch snyc 맞추기
-  git push origin "working_branch" 		# 코드 푸시하기
+  
+  #닉네임(sub)브랜치에서 main 브랜치로 넘어가기
+  git checkout main							
+  
+  #repo간 snyc 맞추기
+  git pull upstream main				
+  
+  # working branch로 전환
+  git checkout "브랜치명"					
+  
+  # working branch와 main branch snyc 맞추기
+  git merge main 							  
+  
+  # 코드 푸시하기
+  git push origin "working_branch" 		
+  
   
   # 4. Pull Reqeust 생성하기 (target: hayeona92-main // Source: 자신의 브랜치)
   # 5. Pull Request 작성 후, merge 진행 및 확인하기
