@@ -1,6 +1,6 @@
 # Problem-Solving
 
-Ref) https://www.notion.so/Problem_Solving-669bb90d72d74dc7b28cefa82011503c#ee36536a1f89414eb2fc57ef6f133a9c
+ref) https://www.notion.so/Problem_Solving-669bb90d72d74dc7b28cefa82011503c#ee36536a1f89414eb2fc57ef6f133a9c
 
 ---
 
@@ -47,16 +47,13 @@ ex) 1260_hayeona.java
     - 자신의 닉네임으로 브랜치 생성하기
 
   1. 코드 작성하기
-
-  2. 코드 푸시하기 직전에, 중앙 레포와 자신의 레포 싱크 맞추기 - (git pull upstream main)
-
+  2. 코드 푸시하기 직전에, 중앙 main 레포와 자신의 (main/master) 레포 싱크 맞추기 
+     1. 브랜치 상태가  main or master인 상태에서 git pull upstream main
+     2. git checkout "브랜치명" 
+     3. git merge "설정한 값에 따라 main or master"
   3. 코드 푸시하기 (git add 파일명 &rarr; git commit -m "커밋메세지" &rarr; Git push origin "브랜치명")
-
   4. 코드 푸시한 이후, Pull Reqeust 생성하기 (Target : 메인레포 / Source: 자신의 브랜치)
-
   5. Pull Reqeust 작성 후, merge 진행 및 확인하기 
-
-  6. 포크받은 레포에서 - 사용자 브랜치와 main 브랜치간 snyc 맞추기 (git merge main)
 
   
 
