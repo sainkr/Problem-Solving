@@ -1,6 +1,6 @@
 # Problem-Solving
 
-ref) https://www.notion.so/Problem_Solving-669bb90d72d74dc7b28cefa82011503c#ee36536a1f89414eb2fc57ef6f133a9c
+ref) [모집글](https://www.notion.so/Problem_Solving-669bb90d72d74dc7b28cefa82011503c#ee36536a1f89414eb2fc57ef6f133a9c)
 
 ---
 
