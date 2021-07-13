@@ -48,8 +48,6 @@ ex) 1260_hayeona.java
 
     - 자신의 git에 생긴 repo clone받기 (local저장소 만들기)
 
-    - 
-
     - 자신의 레포와 메인 레포와 연결하기 
 
       ```
